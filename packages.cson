@@ -1,0 +1,9 @@
+packages: [
+  "atom-material-syntax"
+  "atom-material-ui"
+  "linter"
+  "linter-flake8"
+  "multi-cursor-plus"
+  "package-sync"
+  "sync-settings"
+]
