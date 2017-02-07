@@ -1,0 +1,35 @@
+"*":
+  "atom-material-ui":
+    colors:
+      genAccent: true
+      paintCursor: true
+    tabs:
+      tintedTabBar: true
+    treeView:
+      blendTabs: true
+      compactList: true
+    ui:
+      panelContrast: true
+  core:
+    projectHome: "E:\\Python"
+    telemetryConsent: "limited"
+    themes: [
+      "atom-material-ui"
+      "atom-material-syntax"
+    ]
+  editor:
+    invisibles: {}
+    preferredLineLength: 79
+    tabLength: 4
+  "exception-reporting":
+    userId: "477a361b-b544-8a1a-a50a-cc4a31334e1e"
+  "sync-settings":
+    gistId: "d14e06dac8ff728f8fd85eae930b4af0"
+    personalAccessToken: "1ef221a372722b358f77da6b1fe73f9c882a80a2"
+    syncInit: false
+    syncKeymap: false
+    syncSettings: false
+    syncSnippets: false
+    syncStyles: false
+  welcome:
+    showOnStartup: false

@@ -1,0 +1,62 @@
+# Your keymap
+#
+# Atom keymaps work similarly to style sheets. Just as style sheets use
+# selectors to apply styles to elements, Atom keymaps use selectors to associate
+# keystrokes with events in specific contexts. Unlike style sheets however,
+# each selector can only be declared once.
+#
+# You can create a new keybinding in this file by typing "key" and then hitting
+# tab.
+#
+# Here's an example taken from Atom's built-in keymap:
+#
+# 'atom-text-editor':
+#   'enter': 'editor:newline'
+#
+# 'atom-workspace':
+#   'ctrl-shift-p': 'core:move-up'
+#   'ctrl-p': 'core:move-down'
+#
+# You can find more information about keymaps in these guides:
+# * https://atom.io/docs/latest/using-atom-basic-customization#customizing-key-bindings
+# * https://atom.io/docs/latest/behind-atom-keymaps-in-depth
+#
+# This file uses CoffeeScript Object Notation (CSON).
+# If you are unfamiliar with CSON, you can read more about it in the
+# Atom Flight Manual:
+# https://atom.io/docs/latest/using-atom-basic-customization#cson
+'atom-text-editor':
+    'ctrl-shift-g': 'custom:refresh-git-status'
+
+"atom-workspace atom-text-editor":
+  "alt-left": "unset!"
+  "alt-right": "unset!"
+  "alt-shift-left": "unset!"
+  "alt-shift-right": "unset!"
+
+"atom-workspace atom-text-editor:not([mini])":
+  "alt-shift-down": "unset!"
+  "alt-shift-up": "unset!"
+
+"atom-workspace":
+  "alt-a": "multi-cursor-plus:move-left"
+  "alt-d": "multi-cursor-plus:move-right"
+  "alt-end": "multi-cursor-plus:move-to-end-of-line"
+  "alt-home": "multi-cursor-plus:move-to-first-character-of-line"
+  "alt-s": "multi-cursor-plus:move-down"
+  "alt-shift-a": "multi-cursor-plus:select-left"
+  "alt-shift-d": "multi-cursor-plus:select-right"
+  "alt-shift-end": "multi-cursor-plus:select-to-end-of-line"
+  "alt-shift-home": "multi-cursor-plus:select-to-first-character-of-line"
+  "alt-shift-s": "multi-cursor-plus:select-down"
+  "alt-shift-w": "multi-cursor-plus:select-up"
+  "alt-w": "multi-cursor-plus:move-up"
+  "alt-x": "multi-cursor-plus:mark"
+  "ctrl-alt-a": "multi-cursor-plus:move-to-beginning-of-word"
+  "ctrl-alt-d": "multi-cursor-plus:move-to-end-of-word"
+  "ctrl-alt-end": "multi-cursor-plus:move-to-bottom"
+  "ctrl-alt-home": "multi-cursor-plus:move-to-top"
+  "ctrl-alt-shift-a": "multi-cursor-plus:select-to-beginning-of-word"
+  "ctrl-alt-shift-d": "multi-cursor-plus:select-to-end-of-word"
+  "ctrl-alt-shift-end": "multi-cursor-plus:select-to-bottom"
+  "ctrl-alt-shift-home": "multi-cursor-plus:select-to-top"
