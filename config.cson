@@ -24,8 +24,6 @@
   "exception-reporting":
     userId: "477a361b-b544-8a1a-a50a-cc4a31334e1e"
   "sync-settings":
-    gistId: "d14e06dac8ff728f8fd85eae930b4af0"
-    personalAccessToken: "1ef221a372722b358f77da6b1fe73f9c882a80a2"
     syncInit: false
     syncKeymap: false
     syncSettings: false
