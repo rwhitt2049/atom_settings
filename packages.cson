@@ -5,5 +5,4 @@ packages: [
   "linter-flake8"
   "multi-cursor-plus"
   "package-sync"
-  "sync-settings"
 ]

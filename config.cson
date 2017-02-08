@@ -23,6 +23,9 @@
     tabLength: 4
   "exception-reporting":
     userId: "477a361b-b544-8a1a-a50a-cc4a31334e1e"
+  "package-sync":
+    createOnChange: true
+    forceOverwrite: true
   "sync-settings":
     syncInit: false
     syncKeymap: false
